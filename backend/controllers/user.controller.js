@@ -11,7 +11,7 @@ export const getUserForSideBar = async (req, res) => {
     }).select("-password");
     res.status(200).json(filteredUsers);
   } catch (error) {
-    console.error(error);
+    console.error(error); 
     res.status(500).json({
       error: error.message,
       message: "**Internal Server Error**",
