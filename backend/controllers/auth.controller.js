@@ -45,6 +45,7 @@ export const registerUser = async (req, res) => {
         message: "User registered successfully",
         _id: newUser._id,
         fullname: newUser.fullname,
+        username:newUser.username,
         gender: newUser.gender,
         profilePic: newUser.profilePic,
       });
