@@ -35,7 +35,7 @@ const SignUp = () => {
             <label className="label p-2">
               <span className="text-base text-gray-200  label-text">Full Name</span>
             </label>
-            <input
+            <inpuut
               type="text"
               placeholder="John Doe"
               autoFocus
